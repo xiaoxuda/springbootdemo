@@ -1,4 +1,4 @@
-package cn.fundertech.demo2.api;
+package cn.fundertech.demo.api;
 
 import java.util.List;
 

@@ -1,6 +1,6 @@
-package cn.fundertech.demo2.service;
+package cn.fundertech.demo.service;
 
-import cn.fundertech.demo2.api.StockInfoService;
+import cn.fundertech.demo.api.StockInfoService;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
