@@ -7,6 +7,6 @@
     <dubbo:registry address="zookeeper://119.23.108.33:2181" client="curator" timeout="6000"/>
     <dubbo:protocol name="dubbo" port="20890"/>
 
-    <dubbo:service interface="cn.fundertech.demo.api.StockInfoService" ref="stockInfoService"/>
+    <dubbo:service interface="cn.fundertech.demo.api.StockInfoService" ref="stockInfoService" version="0.0.1"/>
 
 </beans>
