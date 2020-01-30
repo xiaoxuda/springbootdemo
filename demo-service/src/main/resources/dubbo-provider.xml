@@ -5,7 +5,7 @@
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd">
     <dubbo:application name="demo"/>
     <dubbo:registry address="zookeeper://119.23.108.33:2181" client="curator" timeout="6000"/>
-    <dubbo:protocol name="dubbo" port="20890" host="www.fundertech.cn"/>
+    <dubbo:protocol name="dubbo" port="20890"/>
 
     <dubbo:service interface="cn.fundertech.demo.api.StockInfoService" ref="stockInfoService" version="0.0.1"/>
 
