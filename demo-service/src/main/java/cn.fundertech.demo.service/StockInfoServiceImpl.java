@@ -1,6 +1,7 @@
 package cn.fundertech.demo.service;
 
 import cn.fundertech.demo.api.StockInfoService;
+import cn.fundertech.demo.util.ThreadLocalUtil;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import java.util.List;
 public class StockInfoServiceImpl implements StockInfoService {
     @Override
     public List<String> getRecommendStockCode() {
+        System.out.println(ThreadLocalUtil.getApiRpcContextAttach("userName"));
         return new ArrayList();
     }
 }
